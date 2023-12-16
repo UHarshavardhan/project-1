@@ -1,0 +1,76 @@
+#id{
+    display: none;
+}
+.headee-id{
+    display: flex;
+    flex-direction: column;
+}
+.sublogo{
+    font-family: 'Kaushan Script', cursive;
+    margin: 0px;
+}
+
+
+.logo{
+font-family : 'Montez', cursive;
+color: rgba(173, 92, 134, 0.37);
+margin: 0px ;
+}
+body {
+    /* Set background image */
+    background-image: url('../images/background.jpg');
+
+    background-repeat: no-repeat; 
+    background-size: cover;     
+    background-position: center; 
+    background-attachment: fixed; 
+}
+.signupin{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.SignIn, .SignUP{
+height:30px;
+width:60px;
+background-color: blue;
+color: white;
+border-radius: 7%;
+}
+
+#modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    Z-index:1 ; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modelcontent {
+    background-color: #881313;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close-icon{
+    color: #ba3c3c;
+    float: right;
+    font-size: 98px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #882c2c;
+    text-decoration: none;
+    cursor: pointer;
+  }
