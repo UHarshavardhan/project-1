@@ -1,6 +1,4 @@
-#id{
-    display: none;
-}
+
 .headee-id{
     display: flex;
     flex-direction: column;
@@ -36,9 +34,10 @@ width:60px;
 background-color: blue;
 color: white;
 border-radius: 7%;
+
 }
 
-#modal {
+#inmodal,#upmodal,#pen {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     Z-index:1 ; /* Sit on top */
@@ -53,24 +52,85 @@ border-radius: 7%;
   }
   
   .modelcontent {
-    background-color: #881313;
+    background-color:white;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
-  }
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    padding:10px 0px 10px 0px ;
+    margin: 20px 0px 10px 0px ;
+}
+.inside{
+    border: 0px;
+    width: -webkit-fill-available;
+    padding: 5x 0px 5px 0px;
+    margin: 8px 0px 8px 0px;
+    background-color: #e1d6d65c;
+    padding: 5px;
+}
+form{
+    position: relative;
+    width: -webkit-fill-available;
+}
+#button1,#button2{
+    border: 0px;
+    padding: 10px 100px;
+    margin: 5px 0px 0px 20px;
+    background-color: lightgreen;
+    color: white;
+}
+.close-icon{
+    position: absolute;
+    right: 10px;
+    top: 1px;
+}
+#AllPost,#AllPost1{
+    background-color: rgb(148, 104, 22);
+    border-radius: 5%;
+    padding: 5px;
+    width: 90px;
+}
+.post{
+    margin: 20% 50% 0 40%;
+}
+#content{
+    background-color: #f3f1f1;
+    width:  900px;
+    height: 50%;
+    border: 0px;
+    padding:10px 0px 10px 0px ;
+    margin: 20px 0px 10px 0px ;
+
+}
+
+
+
+.pen-content{
+    background-color:white;
+    margin: 10px ;
+    padding: 20px;
+    border: 1px solid #888;
+    height: 400px;
+    width: 900px;
+    margin-left: 400px;
+    
+    
+}
+#button3{
+   margin-left:400px;
+   width: 100px;
+   background-color: rgb(78, 171, 78);
+   border: 0px;
+
   
-  /* The Close Button */
-  .close-icon{
-    color: #ba3c3c;
-    float: right;
-    font-size: 98px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #882c2c;
-    text-decoration: none;
-    cursor: pointer;
-  }
+}
+.close-icon1{
+    left: 800px;
+    position: relative;
+    top: 1px;
+}
+

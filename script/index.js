@@ -1,14 +1,13 @@
 function SignInmodel(){
-    document.getElementById('modal').style.display="block";
+    document.getElementById('inmodal').style.display="block";
 }
 function SignUPmodel(){
-    document.getElementById('SignInmodel').style.display='block';
-}
-function close(){
-    document.getElementById('close').style.display='none';
-    
+    document.getElementById('upmodal').style.display="block";
 }
 
+function pen(){
+    document.getElementById('pen').style.display="block";
+}
 
   
 

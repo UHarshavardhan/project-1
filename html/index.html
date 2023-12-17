@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"  crossorigin="anonymous">
+
+    <!-- Include Google Fonts file -->
+    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="../style/index.css">
+</head>
+
+<body>
+    <!-- Include all your code for the header and home page here -->
+    <div id="main1">
+     <header>
+        <div class="headee-id">
+        <div class="logo-side">
+        <p  class="logo">ScriBBler</h1>
+        <p class="sublogo">Explore,Imagine,Create</p>
+        </div>
+        <div class="signupin">
+       <Input type="button" onclick="SignInmodel()" value="Sign" class="SignIn"></Input>
+       <Input type="button" onclick="SignUPmodel()" value="Signup" class="SignUP"></Input>
+        </div>
+        </div>
+     </header>
+
+   <div id="inmodal" >
+   <div id="SignInmodel" class="modelcontent">
+    <form class="signform">
+    <Span>Get Started</span><i class="fa fa-times close-icon"  aria-hidden="true" onclick="close()"></i>
+        <hr>
+    <label for="name" class="heading" >Name</label><br>
+    <input type="text" placeholder="Enter your name"  class="inside" required><br>
+    <label for="Username" class="heading" >Username</label><br>
+    <input type="text" placeholder="Enter your Username" class="inside" id="name" required><br>
+    <label for="Password" class="heading" >Password</label><br>
+    <input type="password" placeholder="Enter your Password" required class="inside" id="Password" required><br>
+    <label for="Confirm Password" class="heading" >Password</label><br>
+    <input type="password" placeholder="CConfirm Password" required class="inside" id="confirm Password" required><br>
+    <input type="button" value="Signup"  id="button1"><br>
+    </form>
+    </div>
+   </div>
+
+   <div id="upmodal">
+   <div id="SignUPmodel" class="modelcontent">
+    <form class="signform" >
+    <Span>Welcome back</span><i class="fa fa-times close-icon" aria-hidden="true" onclick="close()"></i><hr>
+    <label for="Username" class="heading" >Username</label><br>
+    <input type="text" placeholder="Enter your Username" required class="inside" required><br>
+    <label for="password" class="heading" >Password</label><br>
+    <input type="password" placeholder="Enter your Password" required class="inside" required><br>
+    <input type="button" value="SignIn"  id="button2"><br>
+    </form>
+    </div>
+    </div>
+  <div class="post">
+    <div class="post-content">
+     <input type="button" value="All Post" id="AllPost1" >
+    <input type="button" value="Create Post" id="AllPost" onclick="pen()">
+    </div>
+  </div>
+
+  <div id="pen">
+    <div class="pen-content">
+      <Span>Pen Your Post</Span><i class="fa fa-times close-icon1" aria-hidden="true" ></i><hr>
+      <label for="title" class="heading">Title</label><br>
+      <input type="text" Id="title" class="inside" placeholder="Enter title of your post" ><br>
+      <label for="content" class="heading">Contents</label><br>
+      <input type="text" Id="content" placeholder="Enter the contents your post"><br>
+      <input type="button" value="Create" Id="button3">
+
+    </div>
+  </div>
+
+</div>
+</body>
+<script src="../script/index.js"></script>
+</html>
+
